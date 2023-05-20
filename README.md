@@ -88,5 +88,17 @@ SVM Accuracy: 0.767 (+/- 0.009)
 
 - F1 Score: The F1 score is a balanced measure that combines precision and recall. With an F1 score of 0.6310, the model demonstrates a moderate trade-off between precision and recall. It suggests that the model achieves a reasonable balance between accurately identifying positive cases and capturing the majority of the true positive instances.
 
+**Model Output**
 
+| user   | enrolled | predicted_reach |
+|--------|----------|-----------------|
+| 239786 | 1        | 1               |
+| 279644 | 1        | 1               |
+| 98290  | 0        | 0               |
+| 170150 | 1        | 1               |
+| 237568 | 1        | 0               |
+
+
+
+## Conclusion
 
