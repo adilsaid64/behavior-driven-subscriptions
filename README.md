@@ -18,11 +18,11 @@ The dataset used in this project is a simulated dataset. Typically, this type of
 - Day of the week seems to have a very even distribution. No particular day seems to be favoroute when it comes to users installing the application.
 - There is a very big dip in hour, around 8-10. Hours in this dataset, hours are in Coordinated Universal Time (UTC), which is a time standard used globally. UTC hours refer to the time expressed in hours according to the UTC time zone. It is used to denote a specific hour of the day in a standardized way that is not affected by time zone offsets or daylight saving time changes.
 
- For example, if it is 10:00 AM in UTC, it means it is 10 hours after midnight in the UTC time zone. 
+  For example, if it is 10:00 AM in UTC, it means it is 10 hours after midnight in the UTC time zone. 
 
- 10 AM UTC - 8 hours = 2 AM PST.
+  10 AM UTC - 8 hours = 2 AM PST.
 
- We see that this is very early in the morning, which makes sense why there is a dip in the number of enrolment at this hour.
+  We see that this is very early in the morning, which makes sense why there is a dip in the number of enrolment at this hour.
 
 - For age, we see a few jumps  around 30, 40, and 55. Most people seem to be around 20-30, and the distribution stats to tail off after 40.
 
