@@ -74,7 +74,7 @@ Metrics:
 ![Alt Text](6.png)
 
 
-- Accuracy: The accuracy score indicates the overall correctness of the model's predictions. In your specific problem, an accuracy of 0.6839 means that the model correctly predicts customer subscriptions around 68.39% of the time. It suggests that the model has moderate predictive power in identifying potential subscribers.
+- Accuracy: The accuracy score indicates the overall correctness of the model's predictions. An accuracy of 0.6839 means that the model correctly predicts customer subscriptions around 68.39% of the time. It suggests that the model has moderate predictive power in identifying potential subscribers.
 
 - Precision: Precision measures the proportion of true positive predictions out of all positive predictions made by the model. A precision score of 0.7428 indicates that the model has a relatively high ability to identify true positive cases. It suggests that when the model predicts a customer will subscribe, it is accurate around 74.28% of the time.
 
