@@ -73,12 +73,6 @@ Metrics:
 
 ![Alt Text](6.png)
 
-**K fold cross validation**
-
-Applied to assess the performance and generalization ability of a model. Results:
-
-SVM Accuracy: 0.767 (+/- 0.009)
-
 
 - Accuracy: The accuracy score indicates the overall correctness of the model's predictions. In your specific problem, an accuracy of 0.6839 means that the model correctly predicts customer subscriptions around 68.39% of the time. It suggests that the model has moderate predictive power in identifying potential subscribers.
 
@@ -87,6 +81,13 @@ SVM Accuracy: 0.767 (+/- 0.009)
 - Recall: Recall, also known as sensitivity, represents the model's ability to identify all positive cases correctly. A recall score of 0.5485 suggests that the model captures approximately 54.85% of the actual positive cases. It indicates that there might be room for improvement in identifying more customers who are likely to subscribe.
 
 - F1 Score: The F1 score is a balanced measure that combines precision and recall. With an F1 score of 0.6310, the model demonstrates a moderate trade-off between precision and recall. It suggests that the model achieves a reasonable balance between accurately identifying positive cases and capturing the majority of the true positive instances.
+
+**K fold cross validation**
+
+Applied to assess the performance and generalization ability of a model. Results:
+
+SVM Accuracy: 0.767 (+/- 0.009)
+
 
 **Model Output**
 
@@ -97,8 +98,3 @@ SVM Accuracy: 0.767 (+/- 0.009)
 | 98290  | 0        | 0               |
 | 170150 | 1        | 1               |
 | 237568 | 1        | 0               |
-
-
-
-## Conclusion
-
